@@ -1,0 +1,1208 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: lato-bold;
+
+}
+
+body{
+	background: #f4f4f4;
+}
+
+/*---Header Section Start From Here ----*/
+
+
+.wave{
+	width: 100%;
+	height:18px;
+	background: #ed145c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	transform:rotate(2deg);
+	
+}
+
+
+.wavetwo{width: 100%;
+	height: 18px;
+	background: #ed145c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	transform: rotateX(1deg);
+	
+
+}
+
+.Navigation{width: 100%;
+	float: left;
+	position: relative;
+	 
+                                            
+}
+
+.icon{width: 30%;
+	float: left;
+
+
+}
+
+.logo{margin-top: 25px;
+	margin-left: 55px;
+	cursor: pointer;
+
+
+}
+
+.menu{width:70%;
+	float: right;
+
+}
+ul{margin-top: 25px;
+	text-align: center;
+
+}
+ul li{list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+
+
+}
+ul li a{
+	text-decoration: none;
+    padding: 7px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffffe3;
+    transition: .8s;
+}
+ul li a:hover{
+	background: #ed145b;
+	border-radius: 40px;
+
+}
+
+/*---Header Section End From Here ----*/
+
+/*---Section hero start from here---*/
+
+.Hero{
+	width: 100%;
+	background-image: url(image/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	background-position: center;
+	
+}
+
+.content{
+		width: 700px;
+		margin: auto;
+}
+
+.wraper{
+	padding-top: 200px;
+	padding-bottom:140px;
+
+	color: white;
+}
+
+.content h3{
+			text-align: center;
+			text-transform: uppercase;
+			padding: 10px 0px;
+			letter-spacing: 2px;
+
+
+
+
+}
+
+.mache{
+	font-size: 24px;
+
+}
+
+.divider{width: 200px;
+    border-bottom: 2px solid #ed145b;
+    color: red;
+    display: block;
+    margin: auto;
+}
+
+.p{
+	padding: 20px;
+	line-height: 20px;
+}
+
+
+
+.btn-custom{margin-top: 30px;
+
+}
+
+
+.btn{text-decoration: none;
+	background: #ed145b;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 35px;
+    margin: 20px auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+    transition: .8s;
+}
+
+.btn-duplicate{	
+				text-decoration: none;
+				background: #ffffffe3;
+			    color: #ed145b;
+			    padding: 10px 30px;
+			    border-radius: 35px;
+			    margin: 20px auto;
+			    font-size: 15px;
+			    text-transform: uppercase;
+			    outline: none;
+			    transition: 0.8s;
+}
+.btn:hover{background: maroon;
+	box-shadow: 0px 0px 12px;
+	color: #ed145b;
+
+}
+
+.btn-duplicate:hover{
+	background: #ed145b;
+	box-shadow:0px 0px 12px;
+	color: white;
+
+}
+
+/*----Section two start from here----*/
+
+#two{
+	width: 100%;
+	float: left;
+	background: #c0c0c06b;
+
+}
+
+
+
+.host-div{
+		width: 100%;
+		padding: 100px 0px;
+
+
+}
+
+.leftside{
+	width: 35%;
+	float: left;
+	padding-left: 20px;
+
+
+}
+
+.player{
+	width: 60%;
+	float: right;
+
+}
+
+
+.tab{
+	width: 600px;
+	height: auto;
+
+}
+.leftside h2{padding-bottom:20px; ;
+			letter-spacing: 2px;
+
+
+}
+
+.underline{width: 150px;
+    border-bottom: 4px solid #ed145b;
+    display: block;
+
+}
+.leftside p{
+	text-align: justify;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
+}
+
+.leftside a{
+	text-decoration: none;
+	color: #ed145b;
+}
+
+.leftside a:hover{
+	text-decoration: underline;
+	transform: scale(2.2);
+}
+
+.fa.fa-play{font-weight: bold;
+			font-size: 20px;
+			padding: 10px;
+			border:1px solid #ed145b ;
+			border-radius: 50%;
+			margin-left: 10px;
+			cursor: pointer;
+}
+
+
+.fa.fa-play:hover{
+		background: #ed145b;
+		color: #ffffffe3;
+		transition: .5s;
+		transform: rotate(360deg);
+}
+
+
+/*----Section two end from here----*/
+
+/*----Services section start from here----*/
+
+#three{
+	width: 100%;
+	float: left;
+	
+
+}
+.service{
+	width: 100%;
+
+	
+}
+.placement{
+	width: 100%;
+	background: #ffffffe3;
+	padding: 75px 0px;
+
+}
+.upper-part{
+			width: 600px;
+			margin: 0 auto;
+			text-align: center;
+
+
+}
+.upper-part h2{font-weight: 700;
+				padding: 20px 0px;
+
+
+}
+
+
+.upper-part p{padding: 12px 0px;
+				line-height: 20px;
+
+}
+
+
+.spacer{
+		width: 150px;
+	    border-bottom: 2px solid #ed145b;
+	    display: block;
+	    text-align: center;
+	    margin: auto;
+
+}
+
+.service-type{
+}
+
+
+.lower-div{width: 230px;
+
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+	
+}
+
+
+.font{margin: auto;
+	display: block;
+	padding: 39px;
+	border-radius: 50%;
+	border:1px solid #1e1e1e40;
+	
+}
+
+.lower-div h4{
+	text-align: center;
+	padding: 15px 5px;
+	color: #ed145b;
+}
+
+
+
+/*----Services section end from here----*/
+
+
+
+/*----Comment section start from here----*/
+
+.background{
+	width: 100%;
+	float: left;
+	background: url(image/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+
+.comment{
+	width: 550px;
+	margin: auto;
+	text-align: center;
+	padding: 80px 0px;
+	color: #fefefe;
+}
+
+
+.comment p{
+	padding: 20px 5px;
+	line-height: 25px;
+
+}
+
+#quate{
+	color:#ed145b;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+
+/*----Comment section start from here----*/
+
+/*----Prices section start from here----*/
+
+#prices{
+		width: 100%;
+		float: left;
+		padding: 60px 0px;
+
+}
+
+.introduction{
+
+}
+.prices-list{padding-top: 85px;
+	display: inline-block;
+
+}
+
+.card{width: 200px;
+		background:#ffffff;
+		text-align: center;
+		margin-left: 48px;
+		position: relative;
+		transition: 1s;
+
+
+}
+.dolar-part{background:#0000003d;
+			opacity: .40
+			color: #fefefe;
+			padding: 20px 0px;
+			border-bottom: 2px solid #ad14ed;
+
+}
+.dolar-part h2{font-weight: 700;
+				font-size: 50px;
+				color: #ed145d;
+
+
+
+
+}
+.dolar-part p{
+				font-size: 20px;
+				color:#00bcd4 ;
+}
+.dolor{font-size: 27px;
+
+
+}
+
+
+
+.card-discription{padding: 15px 0px;
+
+}
+
+.card-discription p{padding-top: 10px;
+
+}
+
+
+.card:before{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -1;
+}
+
+.card:after{
+			content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -2;
+	filter: blur(20px);
+
+}
+
+
+.card:before,
+.card:after{
+			background: linear-gradient(240deg,#ed145b,#ad14ed,#00bcd4);
+}
+
+
+.card:hover{
+	transform: scale(1.1);
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 0px 0px 12px;
+
+}
+
+
+/*----Prices section start from here----*/
+
+/*----Portfolio Section start from here----*/
+
+.service-box{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #ffffff;
+}
+.div-holder{width: 300px;
+			background: #fefefe;
+			margin-left: 40px;
+			margin-top: 50px;
+			display: inline-block;
+
+			
+
+}
+.img-part{width:25%;
+
+
+}
+
+.television{width: 60px;
+			margin-bottom: 55px;
+			margin-left:0px;
+
+
+}
+
+.img-discription{width:70%;
+
+}
+
+.img-part,.img-discription{
+							display: inline-block;
+}
+
+
+
+.img-discription h5{font-weight: 400;
+					font-size:17px;
+					padding: 10px 0px;
+					color: #ed145b;
+
+
+}
+
+.img-discription p{text-align: justify;
+
+
+}
+
+
+/*----Portfolio Section end from here----*/
+
+
+
+/*----jOIN US SECTION START FROM HERE----*/
+
+
+.join-us{
+		width: 100%;
+		float: left;
+		background: #ed145b;
+		color: #ffffff;
+		font-family: arial;
+		padding: 30px 0px;
+		text-align: center;
+}
+
+
+.for-design{
+			font-weight: 700;
+			font-size: 20px;
+			color:gray;
+
+}
+
+.div-button{width: 800px;
+		background: black;
+		margin: auto;
+
+
+}
+
+.message{width:75%;
+		float: left;
+		padding: 10px 5px;
+		margin: 0 auto;
+		text-align: justify;
+		letter-spacing: 3px;
+
+}
+.buttons{width: 20%;
+	float: left;
+	padding: 10px 5px;
+
+
+}
+
+
+.buttons a{text-decoration: none;
+			padding: 8px 30px;
+			background: #fefefefe;
+			border-radius: 50px;
+			color: #ed145b;
+			font-weight: bold;
+			transition: 0.8s;
+	
+
+}
+
+.buttons a:hover{background:#1e2423;
+				color: #fefefefe;
+
+}
+
+/*----jOIN US SECTION END FROM HERE----*/
+
+
+/*----Section update start from here----*/
+
+.update{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+
+}
+
+.our-update{
+		width: 600px;
+		margin: 0 auto;
+		text-align: center;
+}
+.our-update h2{
+				color: #000;
+				padding: 10px 0px;
+
+}
+
+.our-update p{
+	padding:10px 0px;
+	line-height: 20px;
+}
+
+
+.acceptance{
+			padding: 50px 0px;
+}
+
+.hover-effect{	width: 300px;
+				margin-top: 20px;
+				margin-left: 40px;
+				display: inline-block;
+
+}
+.image-hover{position: relative;
+
+			overflow: hidden;
+			
+
+}
+
+.hoverimage{width: 100%;
+			margin: auto;
+			display: block;
+
+			
+
+
+}
+
+.image-hover-content{position: absolute;
+					top: 0;
+					right:-100%;
+					width: 100%;
+					height: 100%;
+					background: #ed145b;
+					opacity: .75
+					
+
+}
+
+.fa.fa-search{position: absolute;
+			top: 50%;
+			left: 50%;
+			color: #ffffff;
+			font-size:30px;
+			transform: translate(-50%,-50%);
+			cursor: pointer;
+
+
+}
+.image-hover-content a{position: absolute;
+						top: 65%;
+						left: 30%;
+						text-decoration: none;
+						color:#ed145d;
+						padding: 10px 20px;
+						background:
+						#fff;
+						border-radius: 4px;
+						transition: 0.8s;
+
+}
+
+.image-hover-content a:hover{
+							background:#000;
+							opacity: .65;
+							color: #ffffff;
+}
+
+.image-hover:hover .image-hover-content{
+										right: 0;
+										transition: .8s;
+}
+
+.lorem-part{
+			background: lightgray;
+			padding-left: 5px;
+}
+
+.lorem-part h5{
+				padding: 10px 0px;
+}
+.lorem-part p{
+				padding-bottom: 25px;
+}
+
+
+.show{width: 100%;
+	padding-top: 50px;
+	text-align: center;
+
+}
+
+.fa.fa-chevron-down{font-size: 30px;
+					font-weight: bold;
+					color: #ed145b;
+					cursor: pointer;
+
+}
+
+.more h3{
+		padding-bottom:18px;
+		color: #ed145b;
+		cursor: pointer;
+}
+
+/*----Section update end from here----*/
+
+
+/*----Services-section second part start from here----*/
+
+
+
+
+
+.box-two{display: inline-block;
+	position: relative;
+	width: 308px;
+	padding: 40px;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	border-radius: 4px;
+	margin-left: 40px;
+	margin-top: 28px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+.box-two:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	z-index: 2;
+	pointer-events: none;
+	background: rgba(255,255,255,0.2);
+}
+
+
+
+
+.icon-two{
+	position: relative;
+	font-size: 50px;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	background: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	border-radius:50%;
+	font-weight: 700;
+	transition: 1s;
+
+}
+
+
+.container .box-two:nth-child(1) .icon-two{
+
+	box-shadow: 0 0 0 0 #e91e63;
+	background: #e91e63;
+}
+
+.box-two:nth-child(1):hover .icon-two{
+	box-shadow: 0 0 0 400px #e91e63;
+}
+
+
+.container .box-two:nth-child(2) .icon-two{
+
+	box-shadow: 0 0 0 0 #23e629;
+	background: #23e629;
+}
+
+.box-two:nth-child(2):hover .icon-two{
+	box-shadow: 0 0 0 400px #23e629;
+}
+
+
+
+
+.container .box-two:nth-child(3) .icon-two{
+
+	box-shadow: 0 0 0 0 #2196f3;
+	background: #2196f3;
+}
+
+.box-two:nth-child(3):hover .icon-two{
+	box-shadow: 0 0 0 400px #2196f3;
+}
+
+
+
+
+
+.container .box-two:nth-child(4) .icon-two{
+
+	box-shadow: 0 0 0 0 #65f207;
+	background: #65f207;
+}
+
+.box-two:nth-child(4):hover .icon-two{
+	box-shadow: 0 0 0 400px #65f207;
+}
+
+
+
+
+
+.container .box-two:nth-child(5) .icon-two{
+
+	box-shadow: 0 0 0 0 #ed145b;
+	background: #ed145b;
+}
+
+.box-two:nth-child(5):hover .icon-two{
+	box-shadow: 0 0 0 400px #ed145b;
+}
+
+
+
+
+.container .box-two:nth-child(6) .icon-two{
+
+	box-shadow: 0 0 0 0 #07f26d;
+	background: #07f26d;
+}
+
+.box-two:nth-child(6):hover .icon-two{
+	box-shadow: 0 0 0 400px #07f26d;
+}
+
+
+
+
+
+
+.container .box-two:nth-child(1) .icon-two{
+
+	box-shadow: 0 0 0 0 #e91e63;
+	background: #e91e63;
+}
+
+.box-two:nth-child(1):hover .icon-two{
+	box-shadow: 0 0 0 400px #e91e63;
+}
+
+
+
+
+
+
+.box-two-content a{
+	display: inline-block;
+	padding: 10px 20px;
+	background:#fff;
+	border-radius: 4px;
+	color: #000;
+	font-weight: 500;
+	margin-top: 20px;
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+	text-align: center;
+	text-decoration: none;
+}
+
+.box-two .box-two-content{
+	position: relative;
+	z-index: 1;
+	transition: 1s;
+
+}
+
+.box-two:hover .box-two-content{
+	color: #fff;
+}
+
+
+.box-two-content h3{
+					font-size: 20px;
+					font-weight: bold;
+					padding: 20px;
+}
+
+
+
+/*----Services-section second part end from here----*/
+
+
+
+/*----Project section start from here----*/
+
+.project{
+	width: 100%;
+	float: left;
+	background: url(image/background.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+
+}
+
+.award{
+	width: 800px;
+	margin: auto;
+	padding: 80px 0px;
+
+}
+
+.pointer h3{
+	padding: 30px 0px;
+	font-weight: 700;
+
+}
+.pointer p{
+	padding-top:20px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px
+
+	}
+
+/*----Project section start from here----*/
+
+/*----Layer Section start from here----*/
+
+.layout{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+
+}
+
+.layer{
+
+}
+.safari{
+	width: 100%;
+}
+
+.part-one{width: 500px;
+	margin-left: 40px;
+	float: left;
+	transition: 0.5s;
+
+
+}
+.part-one:hover{
+	transform: scale(1.1);
+}
+
+
+.part-two{width: 400px;
+	float: left;
+	margin-left: 40px;
+
+
+}
+
+.part-two h3{font-size: 20px;
+	padding:20px 0px;
+	text-transform: italic;
+}
+
+.part-two p{padding: 10px 0px;
+
+}
+.toper{
+	margin-top: 50px;
+
+}
+
+/*----Layer Section end from here----*/
+
+
+
+
+/*----contact section start from here----*/
+
+#CONTACT-US{
+	width: 100%;
+	float: left;
+	background:linear-gradient(#00000078,#00000078),
+	linear-gradient(#00000075,#00000075),
+	 url(image/bgd.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+.section-start{
+	padding: 80px 0px;
+	width: 300px;
+	float: right;
+	margin-right: 70px;
+	
+
+
+
+}
+input{
+	width: 100%;
+	padding: 10px 2px;
+	margin-top: 5px;
+	background:#fff;
+
+	border-bottom: 1px solid#ddd;
+	color: #ed145b;
+	border:none;
+}
+
+
+
+.form-control{
+	background: #0886d4;
+	padding: 30px;
+	border-radius: 5px;
+}
+
+.form-control h5{
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	font-size:20px;
+
+}
+.form-control p{
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+}
+
+.register{
+	width: 90%;
+	margin-left: 10px;
+	margin-top:5px;
+
+	border-bottom: 2px solid maroon;
+
+}
+.register:hover{
+	cursor: pointer;
+	background: transparent;
+	border-top: 2px solid maroon;
+	color: #ddd;
+
+}
+
+
+.heavy-lifting{
+	width: 400px;
+	float: left;
+	margin-left: 40px;
+	color: #fff;
+	padding: 30px;
+	margin-top: 75px;
+	transition: 1s;
+
+}
+
+.heavy-lifting h3{font-size: 25px;
+				padding: 10px;
+				
+
+
+
+}
+
+.heavy-lifting:hover{
+					border:1px solid lightgray;
+					background: #000;
+					cursor: pointer;
+					border-radius: 5px;
+					opacity: .60;
+}
+
+
+
+
+.color{
+	color: #0886d4;
+	font-size: 25px;
+}
+
+.heavy{padding-left: 10px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-top: 20px;
+
+
+}
+
+.baby{
+	margin-top: 50px;
+	margin-bottom: 10px;
+
+
+}
+.list p{
+	padding-top: 8px;
+}
+
+.fa.fa-angle-down{padding: 4px 7px;
+					border: 1px solid lightgray;
+					border-radius: 50%;
+
+}
+.btn-hover{
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #0886d4;
+	color: #fff;
+	border-radius: 40px;
+	transition: .80s ease;
+
+
+
+}
+
+.btn-hover:hover{
+	background: transparent;
+	border:1px solid #0886d4;
+}
+
+
+
+/*----contact section start from here----*/
+
+
+/*----Footer section start from here----*/
+
+.Footer{
+	width: 100%;
+	float: left;
+	background: #ed145b;
+	color: #ddd;
+
+}
+
+.locker{
+	padding:60px 0px;
+
+}
+.copyright{
+	width: 400px;
+	float: left;
+	margin-left: 60px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.shymu{
+	width: 520px;
+	float: left;
+	margin-left:40px;
+	text-align: center;
+
+}
+
+/*----Footer section start from here----*/
